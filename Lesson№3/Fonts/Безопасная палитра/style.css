@@ -3,3 +3,8 @@ body {
    font-size: 16px;
    background-color: rgb(142, 196, 241);
 }
+p2 {
+   font-size: 18px;
+   font-style: italic;
+   color: red;
+}
