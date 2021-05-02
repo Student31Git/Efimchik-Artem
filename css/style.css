@@ -1,0 +1,13 @@
+body {
+   font-family: 'IBM Plex Serif', serif;
+   background: url(../img/fon.jpg);
+   color: rgb(0, 255, 0);
+   height: 100%;
+      
+      display: flex;
+      
+}
+a {
+   color: rgb(255, 255, 255);
+   
+}
