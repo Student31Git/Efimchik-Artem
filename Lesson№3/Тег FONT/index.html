@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Тег FONT</title>
+</head>
+<body>
+   <H2 align="center">Тег FONT</H2>
+   <p>
+      Font color="#BruceWillis" распознается как шестериная система <font color="red">R</font><font color="green">G</font><font color="blue">B</font><br>
+      Пропускаемые цифры распознается как 0. <br>
+      Некоторые символы распознаются как 0.
+   </p>
+   <p> 
+      1)Заменяя все перавильные шестнадцатеричныйе символы нулями, <br>
+      #BruceWillis превращается в b00ce000000 <br>
+      2)"Добиваем" число нулями до количесва знаков, <br>
+      делимого на 3, получаем b00c e000 0000 <br>
+      3)Разбиваем на три группы, каждая из которыех отвечает по одному компоненту <font color="red">R</font><font color="green">G</font><font color="blue">B</font>: <br>
+      <font color="red">R</font><font color="green">G</font><font color="blue">B</font> (b00c,e000,0000) <br>
+      Обрезая каждый из аргументов справа, оставля 2 символа и получаем результат <font color="red">R</font><font color="green">G</font><font color="blue">B</font>: <br>
+      (b0,e0,00)=#b0e0000 
+   </p>
+   
+   
+</body>
+</html>
