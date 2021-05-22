@@ -1,0 +1,9 @@
+div {
+   margin: 120px;
+   width: 536px;
+   height: 253px;
+   background: 
+      url(../img/img2_03.png) no-repeat 57px 94px,
+      url(../img/img2_01.png) no-repeat -1px -24px,
+      url(../img/img2_02.png) no-repeat center;
+}
