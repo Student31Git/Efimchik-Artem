@@ -1,7 +1,7 @@
 body {
    font-family: 'IBM Plex Serif', serif;
-   background: url(../img/hintergrund-15153169874fa.jpg);
-   color: rgb(0, 255, 0);
+   background: url(../img/hintergrund-15153169874fa.jpg) no-repeat fixed ;
+   color: rgb(0, 255, 191);
    height: 100%;
       
       display: flex;
@@ -12,3 +12,11 @@ a {
    text-decoration: none;
    
 }
+.front {
+   border: 6px double rgb(247, 247, 247); /* Параметры границы */
+   
+   padding: 15px; /* Поля вокруг текста */
+  }
+  s {
+     color: red;
+  }
