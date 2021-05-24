@@ -13,10 +13,16 @@ a {
    
 }
 .front {
-   border: 6px double rgb(247, 247, 247); /* Параметры границы */
-   
+   border: 6px double rgb(247, 247, 247) ; /* Параметры границы */
+   border-collapse: collapse;
    padding: 15px; /* Поля вокруг текста */
+   width: auto;
+   display: inline;
   }
   s {
      color: red;
+  }
+  hr {
+   width: 190px;
+     
   }
