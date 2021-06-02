@@ -1,0 +1,57 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+.header {
+   background-color: aquamarine;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 25px;
+   color: blue;
+   padding: 15px;
+}
+.footer {
+   background-color: aquamarine;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 25px;
+   color: blue;
+   padding: 15px;
+}
+.container {
+   vertical-align: top;
+}
+.menu {
+   background-color: burlywood;
+   width: 250px;
+}
+h3 {
+   margin: 20px 10px;
+}
+ul {
+   margin: 15px 15px 15px 30px;
+}
+img {
+   float: left;
+   margin: 15px;
+   
+}
+h2 {
+   text-align: center;
+   margin: 10px;
+}
+p {
+   margin: 20px;   
+}
+.content {
+   background-image: url('../img/ball.gif') ;
+   background-repeat: repeat-y;
+   background-position: top right;
+   
+   
+}
