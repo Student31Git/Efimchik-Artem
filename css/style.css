@@ -1,12 +1,14 @@
 body {
    font-family: 'IBM Plex Serif', serif;
-   background: url(../img/hintergrund-15153169874fa.jpg) no-repeat fixed ;
-   color: rgb(0, 255, 191);
-   height: 100%;
-      
+   background: url('../img/background_065.jpg');
+   color: rgb(0, 255, 242);
+   
+   margin: 0px;
       display: flex;
+      position: absolute;
       
 }
+
 a {
    color: rgb(255, 255, 255);
    text-decoration: none;
@@ -16,13 +18,22 @@ a {
    border: 6px double rgb(247, 247, 247) ; /* Параметры границы */
    border-collapse: collapse;
    padding: 15px; /* Поля вокруг текста */
-   width: auto;
+   width: 200px;
+   
    display: inline;
+   margin: 5px;
   }
   s {
      color: red;
   }
-  hr {
-   width: 190px;
+  .front2 {
+   border: 6px double rgb(247, 247, 247) ; /* Параметры границы */
+   border-collapse: collapse;
+   padding: 15px; /* Поля вокруг текста */
+   width: 200px;
+   display: inline;
+   margin: 5px;
+   }
+   
      
-  }
+ 
