@@ -1,0 +1,38 @@
+.header,.footer {
+   background-color:aquamarine;
+   color: rgb(0,0,255);
+   text-align: center;
+   height: 50px;
+}
+h3 {
+   text-transform: uppercase;
+   padding-top: 10px;
+}
+h4, h3 {
+   margin: 0;
+}
+.container{
+   background: url('../img/ball.gif') right top repeat-y, url('../img/dsc.png') left top repeat-y;
+}
+.menu {
+   float: left;
+}
+.text {
+   margin-left: 210px;
+}
+.clear {
+   clear: both;
+}
+.text img {
+   float: left;
+}
+
+
+h4 {
+   padding-left: 25px;
+   text-align: center;
+}
+
+p {
+   margin: 10px 10px 0 10px;
+}
