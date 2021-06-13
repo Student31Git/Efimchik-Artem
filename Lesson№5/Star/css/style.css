@@ -1,0 +1,16 @@
+div {
+   float: left;
+}
+.star {
+   float: right ;
+   display: inline-block;
+   list-style-type: none;
+}
+.star:hover {
+  content: url('../img/star1.png');
+   
+}
+.star:hover ~ .star {
+   content: url('../img/star1.png');
+   
+}
