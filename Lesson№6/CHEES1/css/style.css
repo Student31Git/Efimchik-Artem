@@ -1,0 +1,9 @@
+p:not(:last-child) a::before{
+   content: url('../img/extref.png');
+   margin-right: 5px;
+}
+a{
+   text-decoration: none;
+   font-weight: bold;
+   color:blue;   
+}
